@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Latihan Divisi Web</title>
+</head>
+
+<body bgcolor="#33FF00">
+<div align="center">
+<form method="post" action="../WEB/Proses.php">
+<p><b>DATA MAHASISWA</b></p>
+<table width="0" border="0">
+  <tr>
+    <td width="130"><b>Nama</b></td>
+    <td width="220">
+      <input type="text" name="nama" id="nama" placeholder="Input your name" size="30"/></td>
+  </tr>
+  <tr>
+    <td><b>NIM</b><td>
+      <input type="text" name="nim" id="nim" placeholder="Input your NIM" size="10"/></td>
+  </tr>
+  <tr>
+    <td><b>Kelas</b></td>
+    <td>
+      <input type="text" name="kelas" id="kelas" placeholder="Input your Class" />
+</td>
+  </tr>
+  <tr><td><b>Alamat</b></td>
+  <td><textarea name="alamat" cols="30" rows="5"></textarea></td>
+  </tr>
+  <tr>
+  <td><b> Hobi </b></td>
+  <td><input name="Ngoding" type="checkbox" value="Ngoding" />
+  Ngoding<br />
+  <input name="BacaBuku" type="checkbox" value="Baca Buku" /> 
+  Baca Buku<br />
+  <input name="Diskusi" type="checkbox" value="Diskusi" /> 
+  Diskusi<br />
+  <input name="Olahraga" type="checkbox" value="Olahraga" /> 
+  Olahraga<br /></td>
+  </tr>
+  <tr>
+    <td><b>Jurusan</b></td>
+    <td><select name="jurusan">
+    		<option> - </option>
+    		<option> Teknik Informatika </option>
+            <option> Teknik Komputer </option>
+            <option> Sistem Informasi </option>
+            <option> Sastra Inggris </option>
+            <option> Sastra Jepang </option>
+            <option> Sastra Arab </option>
+            <option> Teknik Agama </option>
+            <option> Hubungan Nasional </option>
+            <option> lainnya </option>
+        </select></td>
+  </tr>
+  <tr>
+    <td><b>Jenis Kelamin</b></td>
+    <td><input name="kelamin" type="radio" value="pria" checked="checked" />Pria
+   <input name="kelamin" type="radio" value="wanita" />Wanita</td>
+  </tr>
+  <tr><td></td>
+    <td><input name="submit" type="submit" value="SUBMIT" />      <input name="input" type="reset" value="RESET" /></td></tr>
+</table>
+</form>
+</div>
+</body>
+</html>
