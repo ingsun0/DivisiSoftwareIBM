@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Mahasiswa</title>
+</head>
+<body>
+<form action="proses.php" method="post">
+<h2 align="center">FORM MAHASISWA</h2>
+<table align="center">
+	<tr>
+		<td>Nama</td><td>:</td><td><input type="text" name="nama" placeholder="Enter Your Full Name"></td>
+	</tr>
+	<tr>
+		<td>NIM</td><td>:</td><td><input type="text" name="nim" placeholder="Enter Your NIM"></td>
+	</tr>
+	<tr>
+		<td>Jurusan</td><td>:</td><td><select name="jurusan" >
+			<option value="Teknik Informatika">Teknik Informatika</option>
+			<option value="Sistem Informasi">Sistem Informasi</option>
+			<option value="Manajemen Informatika">Manajemen Informatika</option>
+			<option value="Teknik Komputer">Teknik Komputer</option>
+			<option value="Teknik Sipil">Teknik Sipil</option>
+			<option value="Teknik Elektro">Teknik Elektro</option>
+			<option value="Desain Komunikasi Visual">Desain Komunikasi Visual</option>
+			<option value="Sastra Inggris">Sastra Inggris</option>
+			<option value="Sastra Jepang">Sastra Jepang</option>
+			<option value="Manajemen">Manajemen</option>
+			<option value="Arsitektur">Arsitektur</option>
+			<option value="Hukum">Hukum</option>
+		</select></td>
+	</tr>
+	<tr>
+		<td>Jenis Kelamin</td><td>:</td><td><input type="radio" name="jk" value="Pria" checked="yes">Pria
+											<input type="radio" name="jk" value="Wanita">Wanita</td>
+	</tr>
+	<tr>
+		<td>Hobby</td><td>:</td><td><input type="checkbox" name="gitar" value="Bermain Gitar">Bermain Gitar <br>
+		<input type="checkbox" name="code" value="Ngoding">Ngoding <br>
+		<input type="checkbox" name="baca" value="Membaca">Membaca <br>
+		<input type="checkbox" name="nonton" value="Menonton">Menonton <br>	
+		<input type="checkbox" name="bola" value="Bermain Bola"> Bermain Bola <br>
+		<input type="checkbox" name="musik" value="Bermain Musik"> Bermain Musik
+		</td>
+	</tr>
+	<tr>
+		<td>Alamat</td><td>:</td><td><textarea name="alamat" rows="3" cols="35" placeholder="Alamat Lengkap Anda"></textarea></td>
+	</tr>
+</table>
+<br>
+<div align="center">
+	<input type="submit" name="submit" value="Submit">
+	<input type="reset" name="reset" value="Reset">
+</div>
+</form>
+</body>
+</html>
